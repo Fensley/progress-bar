@@ -11,9 +11,6 @@ body{
   height: 100vh;
   font-family: serif;
   position: relative;
-  /* min-width: 100px;
-  margin: 0 auto;
-  text-align: center; */
 
 }
 
@@ -50,6 +47,8 @@ button{
  padding: 10px;
  border-radius: 8px;
  color: black;
+ border: none;
+ cursor: pointer;
 
 }
 button:hover{
@@ -57,13 +56,16 @@ button:hover{
   
 }
 
+button:focus{
+  outline: 0;
+}
 
 @media (max-width: 530px){
 .container {
     
     margin: 100px;
       height: 40% ;
-      /* font-size: 10px; */
+     
       
   
   }
