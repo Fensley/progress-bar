@@ -13,7 +13,6 @@ btn.addEventListener("click", () => {
      progress.value = 40;
   }
 
- console.log()
 })
  
 
